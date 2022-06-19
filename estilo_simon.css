@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+
+main{
+    align-items: center;
+    justify-content: center;
+}
+
+.circulobg{
+    width: 45vw;
+    height: 85vh;
+    background: rgb(83,82,82) linear-gradient(156deg, rgba(83,82,82,1) 0%, rgba(0,0,0,1) 100%);
+    border: 0.5rem solid black;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.quadrado{
+    width: 20vw;
+    height: 20vh;
+    border: 1rem solid black;
+    border-radius: 60%;
+    margin: 2rem;
+    cursor: pointer;
+    z-index: 6;
+    transition: 200ms;
+}
+
+.quadrado:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+#menor{
+    width: 15vw;
+    height: 15vh;
+}
+
+.container-menor{
+    width: 40%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+
+.branco{
+    background-color: white;
+}
